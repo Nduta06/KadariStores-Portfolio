@@ -1,5 +1,7 @@
 # GrainLedger — Cereal Shop Management
 
+[![Tests](https://github.com/Nduta06/KadariStores-Portfolio/actions/workflows/tests.yml/badge.svg)](https://github.com/Nduta06/KadariStores-Portfolio/actions/workflows/tests.yml)
+
 **A Laravel + Livewire portfolio project by [Nduta06](https://github.com/Nduta06).**
 
 Inventory, sales and gross-profit tracking for a small retail shop, designed for
