@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GrainLedger Demo — Offline</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f9fafb;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            color: #111827;
+            text-align: center;
+            padding: 24px;
+        }
+        .card {
+            max-width: 360px;
+        }
+        .badge {
+            width: 56px;
+            height: 56px;
+            border-radius: 12px;
+            background: #1c5a3c;
+            color: #fff;
+            font-weight: 700;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+        }
+        h1 {
+            font-size: 18px;
+            margin: 0 0 8px;
+        }
+        p {
+            color: #6b7280;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        button {
+            margin-top: 16px;
+            background: #1c5a3c;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="badge">K</div>
+        <h1>You're offline</h1>
+        <p>GrainLedger Demo needs a connection to load or save data. Reconnect and try again.</p>
+        <button onclick="window.location.reload()">Retry</button>
+    </div>
+</body>
+</html>
